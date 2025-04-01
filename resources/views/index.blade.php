@@ -41,7 +41,7 @@
   <div class="kontaktsektion" style="margin-bottom: 64px;">
     <h2>Anmälan till Högelids Tennisstege</h2>
     <div class="kontaktinfo">
-      <p style="margin-top: 4px;">Anmäl dig till stegen genom att ange dina uppgifter i formuläret så kommer det mer information senare.</p>
+      <p style="margin-top: 4px;">Anmäl dig till stegen genom att ange dina uppgifter i formuläret så kommer det mer efteråt.</p>
       <p>Om något krånglar går det bra att ringa Wictor på tel. 076 899 54 35.</p>
       <a href="https://forms.gle/UBGZdxFvJ4YKySGe9" target="_blank" class="boka-pike">Gå till anmälan</a>
     </div>
