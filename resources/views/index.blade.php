@@ -163,10 +163,10 @@
           </g>
           </svg>
         </div>
-        <p class="bold-text">Banan är ledig!</p>
-        <p>Det finns inga bokade tider just nu.</p>
-        {{-- <p class="bold-text">Säsongsstängt</p> --}}
-        {{-- <p>Banan har tyvärr inte öppnat än!</p> --}}
+        {{-- <p class="bold-text">Banan är ledig!</p>
+        <p>Det finns inga bokade tider just nu.</p> --}}
+        <p class="bold-text">Säsongsstängt</p>
+        <p>Banan har tyvärr inte öppnat än!</p>
       </div>
     </div>
   @if($oldResesrvations->count())
