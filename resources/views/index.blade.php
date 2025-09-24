@@ -47,7 +47,7 @@
     </div>
   </div>
 
-  <div class="cta-button">Boka speltid</div>
+  {{-- <div class="cta-button">Boka speltid</div> --}}
 
   <!-- Modal -->
   <div class="reservation-modal" {!! ($errors->any()) ? 'style="display: block;"' : '' !!}>
