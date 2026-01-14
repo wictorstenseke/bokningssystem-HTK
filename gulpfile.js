@@ -16,6 +16,6 @@ elixir(function(mix) {
 });
 elixir(function(mix) {
   mix.browserSync({
-    proxy: 'htk.dev'
+    proxy: 'localhost:8000'
   });
 });
