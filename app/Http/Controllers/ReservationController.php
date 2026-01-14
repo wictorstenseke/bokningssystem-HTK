@@ -40,10 +40,11 @@ class ReservationController extends Controller
             $year = date('Y');
         }
 
-        $historyYears = $reservations->sortBy('start')->groupBy(function ($reservation)
-        {
-            return $reservation->start->format('Y');
-        })->keys();
+        // Generate all years from 2016 (when the app started) to current year
+        // This ensures year selector is always available even without bookings
+        $startYear = 2016;
+        $currentYear = (int) date('Y');
+        $historyYears = collect(range($startYear, $currentYear))->reverse()->values();
 
         return view('index')->with([
             'futureResesrvations'   => $futureResesrvations,
