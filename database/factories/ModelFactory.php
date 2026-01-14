@@ -32,7 +32,12 @@ $factory->define(App\Reservation::class, function (Faker\Generator $faker) {
     // $year   = Carbon::now()->year;
 
     // Skapar bokningar från nuvarande år till och med 3 år gammalt
-    $year   = Carbon::now()->subYears(rand(0,3))->year;
+    // $year   = Carbon::now()->subYears(rand(0,3))->year;
+    
+    // Skapar bokningar för alla år från 2016 till nuvarande år (för testning)
+    $startYear = 2016;
+    $currentYear = Carbon::now()->year;
+    $year = rand($startYear, $currentYear);
 
     $start  = Carbon::create($year, rand(1, 12), rand(1, 28), rand(1, 24));
     $stop   = clone $start;
